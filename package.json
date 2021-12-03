@@ -1,0 +1,24 @@
+{
+  "name": "go-promise",
+  "version": "0.0.1",
+  "description": "Handle promise inline (inspired by Golang's error handling style)",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieunc229/go-promise.git"
+  },
+  "keywords": [
+    "promise",
+    "javascript",
+    "inline"
+  ],
+  "author": "Hieu Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hieunc229/go-promise/issues"
+  },
+  "homepage": "https://github.com/hieunc229/go-promise#readme"
+}
