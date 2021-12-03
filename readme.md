@@ -16,14 +16,14 @@ const goPromise = require("go-promise");
 
 async function yourFunc() {
 
-  const [err1,data1] = await YourPromise1Func();
+  const [err1,data1] = await goPromise(YourPromise1Func());
 
   if (err !== null) {
     // handle error1;
   }
   // handle data1
 
-  const [err2,data2] = await YourPromise1Func();
+  const [err2,data2] = await goPromise(YourPromise1Func());
 
   if (err2 !== null) {
     // handle error1;

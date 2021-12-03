@@ -1,6 +1,6 @@
 {
   "name": "go-promise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Handle promise inline (inspired by Golang's error handling style)",
   "main": "dist/index.js",
   "scripts": {
