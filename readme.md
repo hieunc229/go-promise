@@ -1,5 +1,7 @@
 # go-promise — Handle promises inline for JS
 
+<a href="https://www.npmjs.com/package/go-promise" target="_blank" rel="nofollow noopener"><img src="https://raster.shields.io/npm/v/go-promise" /></a>
+
 `go-promise` is a tiny util library, help you handle promises inline (inspired by Golang's error handling style). It helps you read code better, and is more convenient to handle error where there are multiple `Promise`s or with a huge logic code.
 
 It can be used in browser and NodeJS enviroment
