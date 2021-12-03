@@ -10,7 +10,7 @@ function goPromise(fn) {
             resolve([null, data]);
         })
             .catch(err => {
-            resolve([err, null]);
+            resolve([err]);
         });
     });
 }
