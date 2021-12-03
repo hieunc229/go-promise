@@ -1,10 +1,27 @@
 # go-promise — Handle promises inline for JS
 
-`go-promise` is a small util library, help you handle promises inline (inspired by Golang's error handling style). It helps you read code better, and is more convenient to handle error where there are multiple `Promise`s or with a huge logic code.
+`go-promise` is a tiny util library, help you handle promises inline (inspired by Golang's error handling style). It helps you read code better, and is more convenient to handle error where there are multiple `Promise`s or with a huge logic code.
 
 It can be used in browser and NodeJS enviroment
 
-## 1. Example
+## 1. How to use
+
+The library exposes only 1 function `goPromise` and return an array with 2 values.
+
+When the promise is rejected:
+- The 1st value will be `Error`
+- The 2nd value will be `undefined`
+
+When the promise is resolved
+- The 1st value is `null`
+- The 2nd value is the resolve data
+
+```js
+goPromise(Promise<T>): Promise<[Error | null, T | undefined]>
+```
+
+
+## 2. Example
 
 ```js
 
@@ -33,7 +50,7 @@ async function yourFunc() {
 
 ```
 
-## 2. Install
+## 3. Install
 
 Install using Yarn
 
@@ -47,7 +64,7 @@ Install using NPM
 $ npm i go-promise
 ```
 
-## 3. License and Contribution
+## 4. License and Contribution
 
 `go-promise` is availabe under MIT license.
 
